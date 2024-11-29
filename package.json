@@ -1,0 +1,21 @@
+{
+  "name": "json-schema-validator-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "bun index.js ./test/schema.json ./test/instance.json",
+    "build-win": "bun build index.js --compile --outfile json-schema-validator-cli.exe",
+    "build-unix": "bun build index.js --compile --outfile json-schema-validator-cli"
+  },
+  "author": "Damiano Falcioni",
+  "license": "MIT",
+  "description": "A command line JSON Schema validator vased on Ajv",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "json-schema-validator-cli": "file:"
+  },
+  "devDependencies": {
+    "bun": "^1.1.37"
+  }
+}

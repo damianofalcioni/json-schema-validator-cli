@@ -1,0 +1,4 @@
+node_modules/
+package-lock.json
+json-schema-validator-cli.exe
+json-schema-validator-cli
