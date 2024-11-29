@@ -1,5 +1,5 @@
 # JSON Schema Validator CLI
-A command line JSON Schema validator based on the famous [AJV Library](https://github.com/ajv-validator/ajv)
+A standalone command line JSON Schema validator based on the famous [AJV Library](https://github.com/ajv-validator/ajv)
 
 ## Usage
 ```
